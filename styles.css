@@ -1,0 +1,6 @@
+#map {
+        height: 400px;
+        width: 400px;
+        background: grey;
+        z-index: 1;
+       }
