@@ -1,3 +1,10 @@
+/* hex colours
+Yellow #E8CB52
+Red #E24E42
+Light Green #6ED6B5
+Dark Green #2B8F73 */
+
+
 #map {
 
         width: 100%;
@@ -5,7 +12,7 @@
         background: grey;
         z-index: 1;
         margin-top: 10%;
-        margin-bottom: 10%; 
+        margin-bottom: 10%;
 };
 
 .fill {
