@@ -283,16 +283,10 @@ function initMap() {
   }
 ]);
         var iconBase = 'https://maps.google.com/mapfiles/kml/shapes/';
-        var viductMarker = 'Images/viaduct.png';
-        var goldStar = {
-          path: 'M 125,5 155,90 245,90 175,145 200,230 125,180 50,230 75,145 5,90 95,90 z',
-          fillColor: 'yellow',
-          fillOpacity: 0.8,
-          scale: 0.2,
-          strokeColor: 'gold',
-          strokeWeight: 14
-        };
 
+        //Our Custom Map marker
+        var viductMarker = 'Images/viaduct.png';
+        //creats the map
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 14.5, //controls zoom of map, greater number=moe zoomed in
           center: townhall, //uses a marker to center the map
@@ -301,7 +295,9 @@ function initMap() {
                     'styled_map']
           }
         });
-  map.mapTypes.set('styled_map', styledMapType);
+
+        map.mapTypes.set('styled_map', styledMapType);
+
         map.setMapTypeId('styled_map');
 
 
@@ -310,12 +306,13 @@ function initMap() {
           map: map //which map the marker is to be displayed on
         });
 
-        var bthcontentString = '<div id="content">'+
+        var bthcontentString =
+            '<div id="content">'+
             '<div id="siteNotice">'+
             '</div>'+
-            '<h1 id="firstHeading" class="firstHeading">Brighton Town Hall</h1>'+
+            '<h1>Brighton Town Hall</h1>'+
             '<div id="bodyContent">'+
-            '<p> This is Brighton Town Hall </p>'+
+            '<p> This is Brighton Town Hall </p>'
             '</div>'+
             '</div>';
 
@@ -323,14 +320,6 @@ function initMap() {
           content: bthcontentString
         });
 
-        var viaduct = {
-          path: 'M23.361,59.855l372.805,0l0,75.847c0,0 -31.682,-72.941 -61.289,0c-0.255,0.628 0,118.388 0,118.388l-40.935,0l0,-118.388c0,0 -35.59,-72.083 -63.78,0c-1.868,4.776 0,118.388 0,118.388l-40.884,0l0,-118.388c0,0 -28.389,-72.772 -62.362,0c-0.618,1.325 0,118.388 0,118.388l-41.193,0l0,-118.388c0,0 -30.985,-71.725 -62.362,0c-0.405,0.927 0,-75.847 0,-75.847Z',
-          fillColor: 'orange',
-          fillOpacity: 0.8,
-          scale: 0.1,
-          strokeColor: 'orange',
-          strokeWeight: 2
-        };
 
           var marker2 = new google.maps.Marker({
           position: townhall,
@@ -343,20 +332,11 @@ function initMap() {
           // draggable: true,
         });
 
-function addIcon(location, map) {
-  var newmarker = new google.maps.Marker({
-    position: location,
-    icon: goldStar,
-    map: map
-}); }
-
-
-   marker2.addListener('click', function() {
-          infowindow.open(map, marker2);
+        var infowindow = new google.maps.InfoWindow({
+          content: bthcontentString
         });
 
-        google.maps.event.addListener(map, 'click', function(event) {
-  addIcon(event.latLng, map);
-});
-
+        marker2.addListener('click', function() {
+            infowindow.open(map, marker2);
+          });
       }
