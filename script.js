@@ -1,4 +1,3 @@
-
 function initMap() {
         var palacepier = {lat: 50.8151275, lng: -0.1371278}; //creates a new location
         var townhall = {lat: 50.8205827, lng: -0.1400487}; //creates a new location

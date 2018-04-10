@@ -4,33 +4,79 @@ Red #E24E42
 Light Green #6ED6B5
 Dark Green #2B8F73 */
 
+#navbar li {
+    display: inline;
+    padding: 1em;
+    color: white;
+    text-align: center;
 
-#map {
+  }
 
-        width: 100%;
-        height: 500px;
-        background: grey;
-        z-index: 1;
-        margin-top: 10%;
-        margin-bottom: 10%;
-};
-
-
-
-.fill {
+#navbar {
+    background: #2B8F73;
+    padding: 1em;
     display: flex;
+    color: white;
     justify-content: center;
-    align-items: center;
-    overflow: hidden;
-};
 
-.fill img {
-    flex-shrink: 0;
-    min-width: 100%;
-    min-height: 100%;
-};
+  }
 
-/* content {
+h1 {
+  padding: 1.5em 0;
   text-align: center;
-  max-width: 900px;
-}; */
+  font-size: 10em;
+  background: #E24E42 ;
+  margin: 0;
+  color: white;
+}
+
+h2 {
+  text-align: center;
+}
+
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row wrap;
+  box-sizing: border-box;
+  border: solid 10px black;
+
+}
+.container img {
+  width: 100%;
+}
+.place {
+border: solid 10px black;
+max-width: 300px;
+text-align: center; 
+}
+@media (max-width: 700px) {
+  h1 {
+    padding: 1.5em 0;
+    text-align: center;
+    font-size: 5em;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .container img{
+    width: 100%;
+  }
+}
+
+
+.widget-toggle {
+  display: block;
+  overflow: hidden;
+  text-indent: -9999px;
+  width: 18px; height: 9px;
+  margin-top: 15px;
+  margin-left: 13px;
+  background: url(../Images/ivy.jpeg) no-repeat 0 -18px;
+}
+
+.widget-toggle.active {
+  background: url(../img/sidebar-arrows.png) no-repeat 0 0;
+}

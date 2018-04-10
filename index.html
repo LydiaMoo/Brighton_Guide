@@ -8,54 +8,29 @@
     <!-- /* Our JavaScript File */ -->
     <script src="script.js"></script>
     <!-- /* Bootstrap - CSS CDN */ -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <!-- /* JQuery CDN */ -->
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-/* JQuery CDN */ -->
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> -->
     <!-- /* Bootstrap -  JavaScript CDN */ -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
+    <!-- Our map -->
   </head>
 
   <body>
     <header>
-        <div class="jumbotron">
-            <div class="container">
-              <h1> Buildings of Brighton </h1>
-            </div>
-        </div>
+          <h1> Buildings of Brighton </h1>
     </header>
-    <!-- add class navbar-fixed-top to fix NAV to stop of screen -->
-    <nav class="navbar navbar-inverse">
-         <div class="container">
-          <div class="navbar-header">
-               <button type="button" class="collapsed navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-9" aria-expanded="false">
-               <span class="sr-only">Toggle navigation</span>
-               <span class="icon-bar"></span>
-               <span class="icon-bar"></span>
-               <span class="icon-bar"></span>
-               </button>
-               <!-- <a href="#" class="navbar-brand">Brand</a>  -->
-         </div>
-         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-9">
-            <ul class="nav navbar-nav">
-                  <li class="active"><a href="#">Home</a></li>
-                  <li><a href="#about">About</a></li>
-                  <li><a href="#map">Map</a></li>
-                  <li><a href="#places">Places</a></li>
-                  <li><a href="./contact.html">Contact</a></li>
-            </ul>
-               <!-- Contact form could go here -->
-               <!-- <form class="navbar-form navbar-left  pull-right" role="search">
-                  <div class="form-group">
-                     <input type="text" class="form-control" placeholder="Search">
-                  </div>
-                  <button type="submit" class="btn btn-default">Submit</button>
-               </form> -->
 
-        </div>
-      </div>
-  </nav>
+  <div>
+    <nav id="navbar">
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+      </ul>
+    </nav>
+  </div>
 
-<content id="about" class="container">
+<content id="about">
   Welcome to a comprehensive guide of the best Buildings of Brighton. Here we have a collection of hidden gems in the heart of the City displayed on the map and with images and a brief description.
 </content>
 
@@ -65,98 +40,74 @@
     <div id="map"></div>
   </div>
 <!-- Place Descriptions with images -->
-  <div class="container-fluid container" id="places">
-    <div class="row">
 
-        <div class="col-md-4 fill">
-          <div>
-            <img src="Images/BTH.jpeg"/>
-          </div>
-              <a href="#collapse1" class="btn btn-info" data-toggle="collapse"  role="button" aria-expanded="false" aria-controls="collapse1"> Brighton Town Hall<a/>
-              <div class="collapse" id="collapse1">
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-              </div>
-          </di
+                    <h2>Buildings</h2>
+                    <div class="container">
+                    <content class="place">
+                      <h3>The Ivy</h3>
+                      <img src="Images/ivy.jpeg"/>
+                      <p> Place holder text for a really freakin' awesome event or place somewhere in brighton.</p>
+                    </content>
 
 
-          v>
+
+                  <content class="place">
+                    <h3>The Ivy</h3>
+                    <img src="Images/ivy.jpeg"/>
+                    <p> Place holder text for a really freakin' awesome event or place somewhere in brighton.</p>
+                  </content>
+
+
+
+                <content class="place">
+                  <h3>The Ivy</h3>
+                  <img src="Images/ivy.jpeg"/>
+                  <p> Place holder text for a really freakin' awesome event or place somewhere in brighton.</p>
+                </content>
+
+
+
+              <content class="place">
+                <h3>The Ivy</h3>
+                <img src="Images/ivy.jpeg"/>
+                <p> Place holder text for a really freakin' awesome event or place somewhere in brighton.</p>
+              </content>
+
+
+
+            <content class="place">
+              <h3>The Ivy</h3>
+              <img src="Images/ivy.jpeg"/>
+              <p> Place holder text for a really freakin' awesome event or place somewhere in brighton.</p>
+            </content>
+
+
+
+          <content class="place">
+            <h3>The Ivy</h3>
+            <img src="Images/ivy.jpeg"/>
+            <p> Place holder text for a really freakin' awesome event or place somewhere in brighton.</p>
+          </content>
         </div>
 
-        <div class="col-md-4 fill">
-            <div>
-                <img src="Images/BTH.jpeg"/>
-            </div>
-            <a href="#collapse2" class="btn btn-info" data-toggle="collapse"  role="button" aria-expanded="false" aria-controls="collapse2"> Brighton Town Hall<a/>
-            <div class="collapse" id="collapse2">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-            </div>
-          </div>
-
-        <div class="col-md-4 fill">
-            <div>
-                <img src="Images/BTH.jpeg"/>
-            </div>
-            <a href="#collapse3" class="btn btn-info" data-toggle="collapse"  role="button" aria-expanded="false" aria-controls="collapse3"> Brighton Town Hall<a/>
-                      <!-- Description -->
-            <div class="collapse" id="collapse3">
-              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-            </div>
-          </div>
-
-    </div>
-  </div>
-
-  <div class="container-fluid container">
-    <div class="row">
-
-          <div class="col-md-4 fill">
-            <div class="img_cont">
-              <img src="Images/BTH.jpeg"/>
-            </div>
-              <a href="#collapse4" class="btn btn-info" data-toggle="collapse"  role="button" aria-expanded="false" aria-controls="collapse4"> Brighton Town Hall<a/>
-              <div class="collapse" id="collapse4">
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-              </div>
-          </div></div>
-
-
-        <div class="col-md-4 fill">
-            <div>
-                <img src="Images/BTH.jpeg"/>
-            </div>
-            <a href="#collapse5" class="btn btn-info" data-toggle="collapse"  role="button" aria-expanded="false" aria-controls="collapse2"> Brighton Town Hall<a/>
-            <div class="collapse" id="collapse5">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-            </div>
-          </div>
-
-        <div class="col-md-4 fill">
-
-          <div>
-              <img class="img-responsive" src="Images/BTH.jpeg"/>
-          </div>
-              <div class="panel-group">
-                <div class="panel panel-default">
-                  <div class="panel-heading">
-                    <h4 class="panel-title">
-                      <a data-toggle="collapse" href="#collapse6">Brighton Town Hall</a>
-                    </h4>
-                  </div>
-                  <div id="collapse6" class="panel-collapse collapse">
-                    <div class="panel-body">
-                       Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-    </div>
-  </div>
 <!-- End of page footer  -->
   <footer>
   </footer>
+
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCbTG29onmBNOR7NbcOgiln_cFUHAkSlHU&callback=initMap">
     </script>
   </body>
+  <style>
+
+  #map {
+
+          width: 100%;
+          height: 500px;
+          background: grey;
+          z-index: 1;
+          margin-top: 10%;
+          margin-bottom: 10%;
+  };
+
+</style>
 </html>
