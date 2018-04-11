@@ -53,7 +53,7 @@ max-width: 30%;
 text-align: center;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1000px) {
   #title_text {
     padding: 1.5em 0;
     text-align: center;
