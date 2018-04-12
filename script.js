@@ -1,12 +1,9 @@
 function initMap() {
-        var palacepier = {lat: 50.8151275, lng: -0.1371278}; //creates a new location
-        var townhall = {lat: 50.8205827, lng: -0.1400487}; //creates a new location
         var viaduct = {lat: 50.835464, lng: -0.141790}; //creates a new location
         var dukeofyorks = {lat: 50.833912, lng: -0.138337}; //creates a new location
         var stbartholomews = {lat: 50.830886, lng: -0.137072}; //creates a new location
         var station = {lat: 50.829000, lng: -0.141250}; //creates a new location
         var theobaldhouse = {lat: 50.828889, lng: -0.138180}; //creates a new location
-        var phoenix = {lat: 50.828900, lng: -0.133779}; //creates a new location
         var hanover = {lat: 50.827241, lng: -0.130466}; //creates a new location
         var astoria = {lat: 50.825536, lng: -0.135943}; //creates a new location
         var kingqueens = {lat: 50.824603, lng: -0.137050}; //creates a new location
