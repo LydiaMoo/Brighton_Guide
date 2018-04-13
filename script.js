@@ -307,7 +307,7 @@ function initMap() {
         //creats the map
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 14.5, //controls zoom of map, greater number=moe zoomed in
-          center: townhall, //uses a marker to center the map
+          center: station, //uses a marker to center the map
            mapTypeControlOptions: {
             mapTypeIds: ['roadmap', 'satellite', 'hybrid', 'terrain',
                     'styled_map']
@@ -340,10 +340,10 @@ function initMap() {
 
 
           var marker2 = new google.maps.Marker({
-          position: townhall,
+          position: viaduct,
           // label: '1',
           map: map, //which map the marker is to be displayed on
-          title: 'Brighton Town Hall',
+          title: 'The Viaduct',
           icon: viductMarker,
           animation: google.maps.Animation.DROP,
           opacity: 1,

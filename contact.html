@@ -1,13 +1,39 @@
 <!DOCTYPE html>
+
 <html>
-      <head>
-      </head>
-            <body>
-        <form action="https://formspree.io/natasha.hoare@yahoo.co.uk"
+
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="contact_styles.css">
+</head>
+
+<body>
+  <div>
+    <nav id="navbar">
+      <ul>
+        <li><a href="./index.html">Home<a/></li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+  
+  <h2 id="feedback">Feedback</h2>
+
+  <p id="feedback-comment">Think we missed something? Let us know below!</p>
+
+  <span class="form">
+    <form action="https://formspree.io/natasha.hoare@yahoo.co.uk"
       method="POST">
-    <input type="text" name="name">
-    <input type="email" name="_replyto">
-    <input type="submit" value="Send">
-</form>
-            </body>
+    <br>
+    <input type="text" name="name" value="Enter your name (+ email if you would like a response)">
+    <br>
+    </span>
+     <br>
+    <input type="text" name="comment" value="Enter your comment">
+    <br><br>
+    <input type="submit" value="Submit">
+  </form>
+</span>
+
+</body>
 </html>
