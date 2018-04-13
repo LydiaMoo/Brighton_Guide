@@ -8,56 +8,46 @@
     <!-- /* Our JavaScript File */ -->
     <script src="script.js"></script>
     <!-- /* Bootstrap - CSS CDN */ -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <!-- /* JQuery CDN */ -->
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-/* JQuery CDN */ -->
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> -->
     <!-- /* Bootstrap -  JavaScript CDN */ -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
+    <!-- Our map -->
+    <style>
+@import url('https://fonts.googleapis.com/css?family=Barrio|Bungee+Inline|Bungee+Shade|Codystar|Fascinate+Inline');
+</style>
   </head>
 
+
   <body>
-    <header>
-        <div class="jumbotron">
-            <div class="container">
-              <h1> Buildings of Brighton </h1>
-            </div>
-        </div>
+    <header id="title_text">
+          <h1> Buildings of </br>
+<span id="animation_">
+  <span class="letter">B</span>
+  <span class="letter">R</span>
+  <span class="letter">I</span>
+  <span class="letter">G</span>
+  <span class="letter">H</span>
+  <span class="letter">T</span>
+  <span class="letter">O</span>
+  <span class="letter">N</span>
+</span>
+           </h1>
     </header>
-    <!-- add class navbar-fixed-top to fix NAV to stop of screen -->
-    <nav class="navbar navbar-inverse">
-         <div class="container">
-          <div class="navbar-header">
-               <button type="button" class="collapsed navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-9" aria-expanded="false">
-               <span class="sr-only">Toggle navigation</span>
-               <span class="icon-bar"></span>
-               <span class="icon-bar"></span>
-               <span class="icon-bar"></span>
-               </button>
-               <!-- <a href="#" class="navbar-brand">Brand</a>  -->
-         </div>
-         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-9">
-            <ul class="nav navbar-nav">
-                  <li class="active"><a href="#">Home</a></li>
-                  <li><a href="#about">About</a></li>
-                  <li><a href="#map">Map</a></li>
-                  <li><a href="#places">Places</a></li>
-                  <li><a href="./contact.html">Contact</a></li>
-            </ul>
-               <!-- Contact form could go here -->
-               <!-- <form class="navbar-form navbar-left  pull-right" role="search">
-                  <div class="form-group">
-                     <input type="text" class="form-control" placeholder="Search">
-                  </div>
-                  <button type="submit" class="btn btn-default">Submit</button>
-               </form> -->
 
-        </div>
-      </div>
-  </nav>
+  <div>
+    <nav id="navbar">
+      <ul>
+        <li><a href="./index.html">Home<a/></li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
 
-<content id="about" class="container">
+<div id="about">
   Welcome to a comprehensive guide of the best Buildings of Brighton. Here we have a collection of hidden gems in the heart of the City displayed on the map and with images and a brief description.
-</content>
+</div>
 
 
 <!-- Map Section -->
@@ -65,98 +55,175 @@
     <div id="map"></div>
   </div>
 <!-- Place Descriptions with images -->
-  <div class="container-fluid container" id="places">
-    <div class="row">
 
-        <div class="col-md-4 fill">
-          <div>
-            <img src="Images/BTH.jpeg"/>
-          </div>
-              <a href="#collapse1" class="btn btn-info" data-toggle="collapse"  role="button" aria-expanded="false" aria-controls="collapse1"> Brighton Town Hall<a/>
-              <div class="collapse" id="collapse1">
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-              </div>
-          </di
+                    <h2 class="subheading">Buildings</h2>
+                    <div class="container">
+                    <content class="place">
+                      <h3 class="place_name">London Road Viaduct</h3>
+                      <img src="http://i1213.photobucket.com/albums/cc479/natashahoare/brighton%20buildings/DSC_0310.jpg"/>
+                      <p> Considered one of the best monuments of early railway architecture. 400 yards long with 26 arches, the viaduct was built in the 1940's to connect Brighton with the East Coast and is still in use today. Architect: John Urpeth Rastrick.</p>
+                    </content>
 
 
-          v>
+
+                  <content class="place">
+                    <h3>Duke of York's Picturehouse</h3>
+                    <img src="http://i1213.photobucket.com/albums/cc479/natashahoare/brighton%20buildings/DSC_0308.jpg"/>
+                    <p> Duke of York's is the oldest cinema in continued use in Britain. Built in Edwardian Baroque style in 1910, the building has remained largely unchanged despite passing hands several times. Spot the black & white legs on the roof - one of the few newer additions. Original architect: Clayton & Black.</p>
+                  </content>
+
+
+
+                <content class="place">
+                  <h3>St Bartholomew's Church</h3>
+                  <img src="http://i1213.photobucket.com/albums/cc479/natashahoare/brighton%20buildings/DSC_0277.jpg"/>
+                  <p> Commissioned by Reverend Arthur Wagner in 1872. This neo-gothic church had a controversial welcome - it's an imposing building with a nave 1 metre higher than Westminster Abbey and an unusually geometric shape. Worth viewing from both outside and in. Architect: Edmund Scott, updated by Henry Wilson (1910).</p>
+                </content>
+
+
+
+              <content class="place">
+                <h3>Brighton Station</h3>
+                <img src="http://i1213.photobucket.com/albums/cc479/natashahoare/brighton%20buildings/DSC_0270.jpg"/>
+                <p> The original terminal buildings are Italian Villa style (now converted to shops & cafes), but today's main feature is the great glass and iron canopy spanning the station. Original architect: David Mocatta, glass/iron H.E. Wallis.</p>
+              </content>
+
+
+
+            <content class="place">
+              <h3>Theobald House</h3>
+              <img src="http://i1213.photobucket.com/albums/cc479/natashahoare/brighton%20buildings/DSC_0255.jpg"/>
+              <p> Place holder text for a really freakin' awesome event or place somewhere in brighton.</p>
+            </content>
+
+
+
+          <content class="place">
+            <h3>Hanover Residences</h3>
+            <img src="http://i1213.photobucket.com/albums/cc479/natashahoare/brighton%20buildings/DSC_0041.jpg"/>
+            <p> A hilly residential area of Brighton known for its colourful Victorian houses. Also features plenty of pubs and some great panoramic views of Brighton. </p>
+          </content>
+
+
+
+
+          <content class="place">
+            <h3>(Abandoned) Astoria Theatre</h3>
+            <img src="http://i1213.photobucket.com/albums/cc479/natashahoare/brighton%20buildings/DSC_0248.jpg"/>
+            <p> Built in art deco style featuring a vast cast iron facade. Unlike Duke of York's, this cinema couldn't survive the decline in the 70s and after a spell as a bingo hall was left derilect. The Kissing Coppers Banksy mural is not the original, but appeared shortly after the legalisation of gay marriage in the UK. Architect: Edward Albert Stone. </p>
+          </content>
+
+
+
+
+          <content class="place">
+            <h3>King & Queen's Pub</h3>
+            <img src="http://i1213.photobucket.com/albums/cc479/natashahoare/brighton%20buildings/DSC_0228.jpg"/>
+            <p> In the 1930s famous local architect's Clayton & Black redesigned this pub in Tudor style; complete with tapestries, heraldic glass and carved oak timbers. In its early days it ran an illict trade with the neighbouring army barracks through a secret rear hatch still visible today. Henry VIII and Anne Boleyn sit above the entrance. </p>
+          </content>
+
+
+
+          <content class="place">
+            <h3>The Royal Pavilion</h3>
+            <img src="http://i1213.photobucket.com/albums/cc479/natashahoare/brighton%20buildings/DSC_0223.jpg"/>
+            <p> Brighton's most well known building. Designed in the early 19th century by Henry Holland as a holiday retreat for the Prince Regent, then later developed by John Nash into the grand palace we see today. Described by Adèle d'Osmond as a "mad house", the Pavilion is packed with elaborate 'Oriental' features from the colonial era. </p>
+          </content>
+
+
+
+          <content class="place">
+            <h3>163 North Street</h3>
+            <img src="http://i1213.photobucket.com/albums/cc479/natashahoare/brighton%20buildings/DSC_0209.jpg"/>
+            <p> Considered by many to be the chef-d'œuvre of local firm Clayton & Black's. Built in Edwardian Baroque style in 1904, with pink granite and a green slated roof. </p>
+          </content>
+
+
+          <content class="place">
+              <h3>Embassy Court</h3>
+              <img src="http://i1213.photobucket.com/albums/cc479/natashahoare/brighton%20buildings/DSC_0121.jpg"/>
+              <p> A 12 story residential block built from reinforced concrete, Embassy Court is one of the only examples of the Early Modern Movement in Sussex. An interesting contrast to the usual Regency and Victorian houses on the seafront. Architect: Wells Coates, 1936. </p>
+            </content>
+
+
+
+
+            <content class="place">
+              <h3>Hove Bandstand</h3>
+              <img src="http://i1213.photobucket.com/albums/cc479/natashahoare/brighton%20buildings/DSC_0111.jpg"/>
+              <p> Designed by Phillip Lockwood in 1884, considered one of the finest standing examples of a Victorian Bandstand. It was restored in 2009. </p>
+            </content>
+
+
+
+            <content class="place">
+              <h3>Western Terrace</h3>
+              <img src="http://i1213.photobucket.com/albums/cc479/natashahoare/brighton%20buildings/DSC_0158.jpg"/>
+              <p> An interesting cul-de-sac off Western Road. Includes Gothic House (whilst the ground floor has been converted, the upper half remains Gothick style) and Western Pavillion, a house which was occupied by the architect Amon Henry Wilds himself and features a minature dome similar to the Royal Pavilion. </p>
+            </content>
+
+
+
+            <content class="place">
+              <h3>Metropole Hotel</h3>
+              <img src="http://i1213.photobucket.com/albums/cc479/natashahoare/brighton%20buildings/DSC_0102.jpg"/>
+              <p> Originally designed by Alfred Waterhouse, famous for designing the Natural History Museum and Manchester Town Hall among others. Victorian like many other seafront buildings, but an unusual red terracotta instead of the typical whitewash. Enlarged in 1961 which required the removal of some of Waterhouse's features from the roofline.</p>
+            </content>
+
+
+
+            <content class="place">
+              <h3>The Grand Hotel</h3>
+              <img src="http://i1213.photobucket.com/albums/cc479/natashahoare/brighton%20buildings/thegrand.jpg"/>
+              <p> An iconic Victorian seafront hotel. In 1984 it was badly damaged by an IRA bomb intended to assassinate Margaret Thatcher, but was saved by millions of pounds of funding. Unfortunately the façade is undergoing a big restoration, scheduled for completion some time in 2018. Designed in 1864 by J. H. Whichcord. </p>
+            </content>
+
+
+
+            <content class="place">
+              <h3>The Brighton Centre</h3>
+              <img src="http://i1213.photobucket.com/albums/cc479/natashahoare/brighton%20buildings/DSC_0091_1.jpg"/>
+              <p> Designed in 1977 by Russell Diplock & Associates. This brutalist concrete building contrasts greatly with the ornately Victorian Grand Hotel next door. It's the biggest building of its kind in Southern England, and is regularly used for major political conferences amongst other events. </p>
+            </content>
+
+
+
+            <content class="place">
+              <h3>Kingswest Building (Odeon/Pryzm)</h3>
+              <img src="http://i1213.photobucket.com/albums/cc479/natashahoare/brighton%20buildings/DSC_0080.jpg"/>
+              <p>The Kingswest is a constant contender for ugliest building in Brighton, sometimes vying with the conference centre next door. Gold and metal spikes hang over an expanse of beige, with the current Odeon cinema and Pryzm nightclub plastering their logos on the sides. Another imposing addition to the seafront. </p>
+            </content>
+
+
+
+            <content class="place">
+              <h3>(Abandoned) Brighton Hippodrome</h3>
+              <img src="http://i1213.photobucket.com/albums/cc479/natashahoare/brighton%20buildings/DSC_0189.jpg"/>
+              <p> Designed by Frank Matcham and opened as a variety theatre in 1902. The building is stuccoed, and the central entrance flanked by square Italianate towers with pyramid roofs.  It hosted the likes of The Beatles, The Rolling Stones and Charlie Chaplin, but suffered a similar fate to the Astoria; for a time converted to a Bingo Hall, but abandoned from 2007. </p>
+            </content>
+
         </div>
 
-        <div class="col-md-4 fill">
-            <div>
-                <img src="Images/BTH.jpeg"/>
-            </div>
-            <a href="#collapse2" class="btn btn-info" data-toggle="collapse"  role="button" aria-expanded="false" aria-controls="collapse2"> Brighton Town Hall<a/>
-            <div class="collapse" id="collapse2">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-            </div>
-          </div>
-
-        <div class="col-md-4 fill">
-            <div>
-                <img src="Images/BTH.jpeg"/>
-            </div>
-            <a href="#collapse3" class="btn btn-info" data-toggle="collapse"  role="button" aria-expanded="false" aria-controls="collapse3"> Brighton Town Hall<a/>
-                      <!-- Description -->
-            <div class="collapse" id="collapse3">
-              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-            </div>
-          </div>
-
-    </div>
-  </div>
-
-  <div class="container-fluid container">
-    <div class="row">
-
-          <div class="col-md-4 fill">
-            <div class="img_cont">
-              <img src="Images/BTH.jpeg"/>
-            </div>
-              <a href="#collapse4" class="btn btn-info" data-toggle="collapse"  role="button" aria-expanded="false" aria-controls="collapse4"> Brighton Town Hall<a/>
-              <div class="collapse" id="collapse4">
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-              </div>
-          </div></div>
-
-
-        <div class="col-md-4 fill">
-            <div>
-                <img src="Images/BTH.jpeg"/>
-            </div>
-            <a href="#collapse5" class="btn btn-info" data-toggle="collapse"  role="button" aria-expanded="false" aria-controls="collapse2"> Brighton Town Hall<a/>
-            <div class="collapse" id="collapse5">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-            </div>
-          </div>
-
-        <div class="col-md-4 fill">
-
-          <div>
-              <img class="img-responsive" src="Images/BTH.jpeg"/>
-          </div>
-              <div class="panel-group">
-                <div class="panel panel-default">
-                  <div class="panel-heading">
-                    <h4 class="panel-title">
-                      <a data-toggle="collapse" href="#collapse6">Brighton Town Hall</a>
-                    </h4>
-                  </div>
-                  <div id="collapse6" class="panel-collapse collapse">
-                    <div class="panel-body">
-                       Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-    </div>
-  </div>
 <!-- End of page footer  -->
   <footer>
+    <p> Made by </p>
   </footer>
+
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCbTG29onmBNOR7NbcOgiln_cFUHAkSlHU&callback=initMap">
     </script>
   </body>
+  <style>
+
+  #map {
+
+          width: 100%;
+          height: 500px;
+          background: grey;
+          z-index: 1;
+          margin-top: 10%;
+          margin-bottom: 10%;
+  };
+
+
+</style>
 </html>
