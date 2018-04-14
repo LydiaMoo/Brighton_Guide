@@ -7,10 +7,23 @@ Dark Green #2B8F73 */
   margin: 0;
 }
 
+#line_one {
+  font-family: raleway;
+  font-size: 0.7em;
+}
+
+
+h1 {
+  margin: -0.2em;
+}
+
+
 #navbar li{
     display: inline;
     padding: 1em;
     text-align: center;
+    font-family: raleway;
+    font-weight: bold;
 
   }
 
@@ -47,6 +60,7 @@ Dark Green #2B8F73 */
   #about {
     margin: 5% auto;
     text-align: center;
+    font-family: raleway;
 
   }
 
@@ -59,7 +73,7 @@ Dark Green #2B8F73 */
 
   .letter:hover {
     font-size: 1.5em;
-    color: red;
+    color: #E8CB52;
     cursor: pointer;
 
     }
