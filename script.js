@@ -324,6 +324,8 @@ function initMap() {
           map: map //which map the marker is to be displayed on
         });
 
+
+
         var bthcontentString =
             '<div id="content">'+
             '<div id="siteNotice">'+
