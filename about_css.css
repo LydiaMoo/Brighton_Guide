@@ -14,13 +14,12 @@ Dark Green #2B8F73 */
 
 .letter {
   font-family:  'Codystar', cursive;
-  transition: all .45s ease-in-out;
 
 }
 
 #animation_ {
   text-align: center;
-  margin-bottom: 0.25em;
+  margin-bottom: -0.2em;
   display: flex;
   justify-content: center;
   align-items: center;
