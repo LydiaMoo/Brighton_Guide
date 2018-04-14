@@ -58,10 +58,10 @@ h1 {
   }
 
   #about {
-    margin: 5% auto;
-    text-align: center;
+    margin: 5% 3%;
+    text-align: justify;
     font-family: raleway;
-    font-size: 1.8em;
+    font-size:1.7em;
 
   }
 
