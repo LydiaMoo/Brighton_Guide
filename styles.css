@@ -120,6 +120,12 @@ h1 {
     margin-bottom:1em;
   }
 
+  .instructions {
+    font-size:1.2em;
+    font-weight:bold;
+    color:#2B8F73;
+  }
+
 
 .container {
   display: flex;
