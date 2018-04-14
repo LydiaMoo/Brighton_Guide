@@ -94,18 +94,23 @@ h1 {
     }
 }
 
-  #feedback {
+  h2 {
   font-family:raleway;
+  padding: 0% 4%;
+  font-size:2em;
 }
-  #feedback-comment{
-  text-align:center;
+  p{
+  text-align:justify;
   font-family:raleway;
+  padding: 0% 4%;
+  font-size: 1.5em;
 }
 
 input[type=text], select {
     width: 70%;
     display: block;
     text-align: center;
+    font-family; raleway;
     margin: auto;
     padding: 12px 20px;
     border: 1px solid #ccc;
@@ -115,6 +120,8 @@ input[type=text], select {
 
 input[type=submit] {
     width: 20%;
+    font-family: raleway;
+    font-size:1em;
     display: block;
     background-color: #2B8F73;
     color: white;

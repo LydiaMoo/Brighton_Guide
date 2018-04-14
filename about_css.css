@@ -86,6 +86,7 @@ h1 {
 h2 {
   font-family: 'Raleway', sans-serif;
   padding: 0% 4%;
+  font-size:2em;
 }
 
 
@@ -93,6 +94,7 @@ p {
   text-align: justify;
   font-family: 'Raleway', sans-serif;
   padding: 0% 4%;
+  font-size:1.2em;
 }
 
 p2 {
