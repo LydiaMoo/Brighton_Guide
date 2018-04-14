@@ -14,9 +14,9 @@ Dark Green #2B8F73 */
 
 
 h1 {
-  margin-bottom: -0.08em;
-  margin-top:0.34em;
-  line-height: 40%;
+  margin-bottom: -0.05em;
+  margin-top:0.2em;
+  line-height: 50%;
 }
 
 
@@ -64,7 +64,8 @@ h1 {
     text-align: justify;
     font-family: raleway;
     font-size:1.5em;
-    margin-bottom:-2em;
+    margin-bottom:-1em;
+    margin-top:5em;
 
   }
 
