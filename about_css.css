@@ -101,6 +101,20 @@ p2 {
   padding: 0% 4%;
 }
 
+.codefirstlogo {
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
 
 media (max-width: 1000px) {
     #title_text {
