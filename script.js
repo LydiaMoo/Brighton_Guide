@@ -330,7 +330,7 @@ function initMap() {
         '<div id="content">'+
         '<div id="siteNotice">'+
         '</div>'+
-        "<h2>Duke of York's Picturehouse</h2>"+
+        "<h2>Duke of York's Picturehouse (Ref 2)</h2>"+
         '<div id="bodyContent">'+
         '<p> Oldest cinema in continued use in Britain.</p>'
         '</div>'+
@@ -352,7 +352,7 @@ function initMap() {
         '<div id="content">'+
         '<div id="siteNotice">'+
         '</div>'+
-        "<h2>Brighton Station</h2>"+
+        "<h2>Brighton Station (Ref 4)</h2>"+
         '<div id="bodyContent">'+
         '<p>Brighton railway station built 1840.</p>'
         '</div>'+
@@ -373,7 +373,7 @@ function initMap() {
         '<div id="content">'+
         '<div id="siteNotice">'+
         '</div>'+
-        "<h2>London Road Viaduct</h2>"+
+        "<h2>London Road Viaduct (Ref 1)</h2>"+
         '<div id="bodyContent">'+
         '<p>400 yard long Grade II* listed railway viaduct.</p>'
         '</div>'+
@@ -395,7 +395,7 @@ function initMap() {
         '<div id="content">'+
         '<div id="siteNotice">'+
         '</div>'+
-        "<h2>St Bartholomew's Church</h2>"+
+        "<h2>St Bartholomew's Church (Ref 3)</h2>"+
         '<div id="bodyContent">'+
         '<p>Neo-gothic Church built in 1872.</p>'
         '</div>'+
@@ -417,7 +417,7 @@ function initMap() {
         '<div id="content">'+
         '<div id="siteNotice">'+
         '</div>'+
-        "<h2>Theobald House</h2>"+
+        "<h2>Theobald House (Ref 5)</h2>"+
         '<div id="bodyContent">'+
         '<p>Affordable housing tower block.</p>'
         '</div>'+
@@ -438,7 +438,7 @@ function initMap() {
         '<div id="content">'+
         '<div id="siteNotice">'+
         '</div>'+
-        "<h2>Hanover Residences</h2>"+
+        "<h2>Hanover Residences (Ref 6)</h2>"+
         '<div id="bodyContent">'+
         '<p>Colourful victorian terrace.</p>'
         '</div>'+
@@ -459,7 +459,7 @@ function initMap() {
         '<div id="content">'+
         '<div id="siteNotice">'+
         '</div>'+
-        "<h2>(Abandoned) Astoria Theatre</h2>"+
+        "<h2>(Abandoned) Astoria Theatre (Ref 7)</h2>"+
         '<div id="bodyContent">'+
         '<p>Abandoned cinema.</p>'
         '</div>'+
@@ -480,7 +480,7 @@ function initMap() {
         '<div id="content">'+
         '<div id="siteNotice">'+
         '</div>'+
-        "<h2>King and Queen's Pub</h2>"+
+        "<h2>King and Queen's Pub (Ref 8)</h2>"+
         '<div id="bodyContent">'+
         '<p>Tudor style pub.</p>'
         '</div>'+
@@ -503,7 +503,7 @@ function initMap() {
         '<div id="content">'+
         '<div id="siteNotice">'+
         '</div>'+
-        "<h2>The Royal Pavilion</h2>"+
+        "<h2>The Royal Pavilion (Ref 9)</h2>"+
         '<div id="bodyContent">'+
         "<p>Prince Regent's Palace.</p>"
         '</div>'+
@@ -524,7 +524,7 @@ function initMap() {
         '<div id="content">'+
         '<div id="siteNotice">'+
         '</div>'+
-        "<h2>163 North Street</h2>"+
+        "<h2>163 North Street (Ref 10)</h2>"+
         '<div id="bodyContent">'+
         "<p>Edwardian baroque style building.</p>"
         '</div>'+
@@ -545,7 +545,7 @@ function initMap() {
         '<div id="content">'+
         '<div id="siteNotice">'+
         '</div>'+
-        "<h2>Embassy Court</h2>"+
+        "<h2>Embassy Court (Ref 11)</h2>"+
         '<div id="bodyContent">'+
         "<p>Early modern residential block.</p>"
         '</div>'+
@@ -566,7 +566,7 @@ function initMap() {
         '<div id="content">'+
         '<div id="siteNotice">'+
         '</div>'+
-        "<h2>Hove Bandstand</h2>"+
+        "<h2>Hove Bandstand (Ref 12)</h2>"+
         '<div id="bodyContent">'+
         "<p>Victorian bandstand.</p>"
         '</div>'+
@@ -587,7 +587,7 @@ function initMap() {
         '<div id="content">'+
         '<div id="siteNotice">'+
         '</div>'+
-        "<h2>Western Terrace</h2>"+
+        "<h2>Western Terrace (Ref 13)</h2>"+
         '<div id="bodyContent">'+
         "<p>Unique architecture in a cul-de-sac off Western Road</p>"
         '</div>'+
@@ -610,7 +610,7 @@ function initMap() {
         '<div id="content">'+
         '<div id="siteNotice">'+
         '</div>'+
-        "<h2>Metropole Hotel</h2>"+
+        "<h2>Metropole Hotel (Ref 14)</h2>"+
         '<div id="bodyContent">'+
         "<p>Alfred Waterhouse red terracotta seafront building.</p>"
         '</div>'+
@@ -632,7 +632,7 @@ function initMap() {
         '<div id="content">'+
         '<div id="siteNotice">'+
         '</div>'+
-        "<h2>The Grand Hotel</h2>"+
+        "<h2>The Grand Hotel (Ref 15)</h2>"+
         '<div id="bodyContent">'+
         "<p>Iconic Victorian seafront hotel.</p>"
         '</div>'+
@@ -653,7 +653,7 @@ function initMap() {
         '<div id="content">'+
         '<div id="siteNotice">'+
         '</div>'+
-        "<h2>The Brighton Centre</h2>"+
+        "<h2>The Brighton Centre (Ref 16)</h2>"+
         '<div id="bodyContent">'+
         "<p>Brutalist concrete building.</p>"
         '</div>'+
@@ -675,7 +675,7 @@ function initMap() {
         '<div id="content">'+
         '<div id="siteNotice">'+
         '</div>'+
-        "<h2>Kingswest Building (Odeon/Pryzm)</h2>"+
+        "<h2>Kingswest Building (Odeon/Pryzm) (Ref 17)</h2>"+
         '<div id="bodyContent">'+
         "<p>Odeon Cinema/Pryzm, contender for ugliest building in Brighton.</p>"
         '</div>'+
@@ -696,7 +696,7 @@ function initMap() {
         '<div id="content">'+
         '<div id="siteNotice">'+
         '</div>'+
-        "<h2>(Abandoned) Brighton Hippodrome</h2>"+
+        "<h2>(Abandoned) Brighton Hippodrome (Ref 18)</h2>"+
         '<div id="bodyContent">'+
         "<p>Abdandoned variety theatre.</p>"
         '</div>'+
@@ -718,7 +718,7 @@ function initMap() {
         '<div id="content">'+
         '<div id="siteNotice">'+
         '</div>'+
-        "<h2>Middle Street Synagogue</h2>"+
+        "<h2>Middle Street Synagogue (Ref 19)</h2>"+
         '<div id="bodyContent">'+
         "<p>Synagogue designed by Thomas Lainson in 1875.</p>"
         '</div>'+
@@ -739,7 +739,7 @@ function initMap() {
         '<div id="content">'+
         '<div id="siteNotice">'+
         '</div>'+
-        "<h2>The Palace Pier</h2>"+
+        "<h2>The Palace Pier (Ref 20)</h2>"+
         '<div id="bodyContent">'+
         "<p>One of the most popular tourist attractions in the UK.</p>"
         '</div>'+
@@ -760,7 +760,7 @@ function initMap() {
         '<div id="content">'+
         '<div id="siteNotice">'+
         '</div>'+
-        "<h2>Madeira Terrace</h2>"+
+        "<h2>Madeira Terrace (Ref 21)</h2>"+
         '<div id="bodyContent">'+
         "<p>Cast-iron seafront arches.</p>"
         '</div>'+
