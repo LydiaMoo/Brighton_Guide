@@ -303,7 +303,7 @@ function initMap() {
         var iconBase = 'https://maps.google.com/mapfiles/kml/shapes/';
 
         //Our Custom Map marker
-        var viductMarker = 'http://i1213.photobucket.com/albums/cc479/natashahoare/icon_1.png';
+        var custom_marker = 'http://i1213.photobucket.com/albums/cc479/natashahoare/icon_1.png';
         //creats the map
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 14.5, //controls zoom of map, greater number=moe zoomed in
@@ -319,10 +319,168 @@ function initMap() {
         map.setMapTypeId('styled_map');
 
 
-        var marker = new google.maps.Marker({
+        var dukeofyorkmarker = new google.maps.Marker({
           position: dukeofyorks,
-          map: map //which map the marker is to be displayed on
+          map: map,
+          icon: custom_marker,
         });
+
+
+        var stationmarker = new google.maps.Marker({
+           position: station,
+           map: map,
+           icon: custom_marker,
+        })
+
+
+        var viaductmarker = new google.maps.Marker({
+           position: viaduct,
+           map: map,
+           icon: custom_marker,
+        })
+
+
+
+        var stbartholomewsmarker = new google.maps.Marker({
+           position: stbartholomews,
+           map: map,
+           icon: custom_marker,
+        })
+
+
+        var theobaldhousemarker = new google.maps.Marker({
+           position: theobaldhouse,
+           map: map,
+           icon: custom_marker,
+        })
+
+
+        var hanovermarker = new google.maps.Marker({
+           position: hanover,
+           map: map,
+           icon: custom_marker,
+        })
+
+
+        var astoriamarker = new google.maps.Marker({
+           position: astoria,
+           map: map,
+           icon: custom_marker,
+        })
+
+
+        var kingandqueensmarker = new google.maps.Marker({
+           position: kingqueens,
+           map: map,
+           icon: custom_marker,
+        })
+         
+
+
+        var pavilionmarker = new google.maps.Marker({
+           position: royalpavilion,
+           map: map,
+           icon: custom_marker,
+        })
+
+
+
+        var embassycourtmarker = new google.maps.Marker({
+           position: embassycourt,
+           map: map,
+           icon: custom_marker,
+        })
+
+
+
+        var bandstandmarker = new google.maps.Marker({
+           position: bandstand,
+           map: map,
+           icon: custom_marker,
+        })
+
+
+
+        var northstreetmarker = new google.maps.Marker({
+           position: northstreet,
+           map: map,
+           icon: custom_marker,
+        })
+
+
+
+
+        var westernterracemarker = new google.maps.Marker({
+           position: westernterrace,
+           map: map,
+           icon: custom_marker,
+        })
+
+
+
+        var metropolemarker = new google.maps.Marker({
+           position: metropole,
+           map: map,
+           icon: custom_marker,
+        })
+
+
+
+        var grandhotelmarker = new google.maps.Marker({
+           position: grandhotel,
+           map: map,
+           icon: custom_marker,
+        })
+
+
+
+        var brightoncentre = new google.maps.Marker({
+           position: brightoncentre,
+           map: map,
+           icon: custom_marker,
+        })
+
+
+
+        var odeonmarker = new google.maps.Marker({
+           position: odeon,
+           map: map,
+           icon: custom_marker,
+        })
+
+
+
+        var hippodromemarker = new google.maps.Marker({
+           position: hippodrome,
+           map: map,
+           icon: custom_marker,
+        })
+
+
+
+        var synagoguemarker = new google.maps.Marker({
+           position: synagogue,
+           map: map,
+           icon: custom_marker,
+        })
+
+
+
+        var palacepiermarker = new google.maps.Marker({
+           position: palacepier,
+           map: map,
+           icon: custom_marker,
+        })
+
+
+
+        var madeiramarker = new google.maps.Marker({
+           position: madeiradrive,
+           map: map,
+           icon: custom_marker,
+        })
+
+
 
         var bthcontentString =
             '<div id="content">'+
