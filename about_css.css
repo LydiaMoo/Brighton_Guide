@@ -139,11 +139,6 @@ media (max-width: 1000px) {
       height: 0.5em;
       margin-top: 4%;
     }
-    .flex-container {
-      display: flex;
-      flex-flow: row wrap;
-      justify-content: center;
-      min-width:40%;
-    }
+
 
   }
