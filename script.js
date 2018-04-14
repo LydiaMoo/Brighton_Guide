@@ -481,7 +481,6 @@ function initMap() {
         })
 
 
-
         var bthcontentString =
             '<div id="content">'+
             '<div id="siteNotice">'+
