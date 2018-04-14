@@ -94,12 +94,15 @@ h1 {
     }
 }
 
-  #feedback {
-  font-family:raleway;
+    h2 {
+      font-family: 'Raleway', sans-serif;
+      padding: 0% 4%;
+    }
 }
-  #feedback-comment{
-  text-align:center;
-  font-family:raleway;
+  p {
+  text-align:justify;
+  font-family: 'Raleway', sans-serif;
+  padding: 0% 4%;
 }
 
 input[type=text], select {
