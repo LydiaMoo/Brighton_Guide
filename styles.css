@@ -124,7 +124,8 @@ h1 {
   /* margin: 3%;  */
   padding: 2%;
   max-width: 25%;
-  text-align: center;
+  text-align: justify;
+  font-family: raleway;
   }
 
 @media (max-width: 1000px) {
