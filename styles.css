@@ -9,12 +9,14 @@ Dark Green #2B8F73 */
 
 #line_one {
   font-family: raleway;
-  font-size: 0.6em;
+  font-size: 0.5em;
 }
 
 
 h1 {
-  margin: -0.2em;
+  margin-bottom: -0.08em;
+  margin-top:0.34em;
+  line-height: 40%;
 }
 
 
