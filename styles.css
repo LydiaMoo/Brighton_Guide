@@ -59,8 +59,9 @@ h1 {
 
   #about {
     margin: 5% 3%;
-    text-align: center;
+    text-align: justify;
     font-family: raleway;
+    font-size:1.7em;
 
   }
 
