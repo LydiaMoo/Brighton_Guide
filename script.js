@@ -303,7 +303,7 @@ function initMap() {
         var iconBase = 'https://maps.google.com/mapfiles/kml/shapes/';
 
         //Our Custom Map marker
-        var viductMarker = 'Images/viaduct.png';
+        var viductMarker = 'http://i1213.photobucket.com/albums/cc479/natashahoare/icon_1.png';
         //creats the map
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 14.5, //controls zoom of map, greater number=moe zoomed in
@@ -320,7 +320,7 @@ function initMap() {
 
 
         var marker = new google.maps.Marker({
-          position: palacepier,
+          position: dukeofyorks,
           map: map //which map the marker is to be displayed on
         });
 
@@ -347,6 +347,7 @@ function initMap() {
           icon: viductMarker,
           animation: google.maps.Animation.DROP,
           opacity: 1,
+
           // draggable: true,
         });
 
