@@ -134,9 +134,28 @@ h1 {
 
   //*clicky accordion stuff*//
 
+  button {
+      background: none;
+      border: 0;
+      color: inherit;
+      /* cursor: default; */
+      font: inherit;
+      line-height: normal;
+      overflow: visible;
+      padding: 0;
+      -webkit-appearance: button; /* for input */
+      -webkit-user-select: none; /* for button */
+         -moz-user-select: none;
+          -ms-user-select: none;
+  }
+
   .accordion {
   font-family: raleway;
+  background-color: #2B8F73;
+  color: white;
     cursor: pointer;
+    font-size:1.3em;
+    font-weight: bold;
     padding: 18px;
     width: 100%;
     border: none;
@@ -147,14 +166,8 @@ h1 {
 
 .active, .accordion:hover {
     background-color: #6ED6B5;
-    color: white;
+    color: grey;
     width: 100%;
-    font-family: raleway;
-    text-align: center;
-    border:none;
-    outline:none;
-    font-size:1.3em;
-    font-weight:bold;
 }
 
 .panel {
