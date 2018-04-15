@@ -18,22 +18,22 @@ Dark Green #2B8F73 */
 }
 
 .letter {
-  font-family:  'Codystar', cursive;
+  font-family:  'Codystar', sans-serif;
 }
 
-#animation_ {
+/* #animation_ {
   text-align: center;
   margin-bottom: -0.2em;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 1.5em;
-  }
+  } */
 
 #title_text {
-  padding: 5% 0;
+  padding: 0.75em 1em;
   text-align: center;
-  font-size: 5em;
+  font-size: 1.4em;
   background: #2B8F73  ;
   margin: 0;
   color: white;
@@ -44,9 +44,11 @@ Dark Green #2B8F73 */
   }
 
 
-h1 {
-  margin: -0.2em;
-}
+  h1 {
+    /* margin-bottom: -0.05em; */
+    margin-top:0.2em;
+    line-height: 50%;
+  }
 
 #navbar li{
     display: inline;
@@ -54,7 +56,6 @@ h1 {
     text-align: center;
     font-family: raleway;
     font-weight: bold;
-
   }
 
   a {
@@ -65,8 +66,7 @@ h1 {
 
   a:hover {
     border-bottom: solid white 3px;
-    font-size: 1.2em;
-
+    text-shadow: 2px 2px #2B8F73;
   }
 
 #navbar {
@@ -136,6 +136,8 @@ input[type=submit]:hover {
     background-color: #2B8F73;
 }
 
+
+
 /* div {
     border-radius: 5px;
     background-color: #f2f2f2;
@@ -160,8 +162,11 @@ media (max-width: 1000px) {
     .container img{
       width: 100%;
       }
-    #animation_ {
+    /* #animation_ {
       height: 0.5em;
       margin-top: 4%;
+    } */
+    #navbar{
+      font-size: 1.4em;
     }
   }
