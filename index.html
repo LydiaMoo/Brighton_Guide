@@ -62,25 +62,31 @@
                     <h2 class="subheading">Buildings</h2>
                     <div class="container">
                     <figure class="place">
-                      <h3 class="place_name">1) London Road Viaduct</h3>
                       <img src="http://i1213.photobucket.com/albums/cc479/natashahoare/brighton%20buildings/DSC_0310.jpg"/>
-                      <figcaption> Considered one of the best monuments of early railway architecture. 400 yards long with 26 arches, the viaduct was built in the 1940's to connect Brighton with the East Coast and is still in use today. Architect: John Urpeth Rastrick.</figcaption>
+                      <button class="accordion">1) London Road Viaduct</button>
+                      <div class="panel">
+                        <p class="details">Considered one of the best monuments of early railway architecture. 400 yards long with 26 arches, the viaduct was built in the 1940's to connect Brighton with the East Coast and is still in use today. Architect: John Urpeth Rastrick.</p>
+                      </div>
                     </figure>
 
 
 
                   <figure class="place">
-                    <h3>2) Duke of York's Picturehouse</h3>
                     <img src="http://i1213.photobucket.com/albums/cc479/natashahoare/brighton%20buildings/DSC_0308.jpg"/>
-                    <figcaption> Duke of York's is the oldest cinema in continued use in Britain. Built in Edwardian Baroque style in 1910, the building has remained largely unchanged despite passing hands several times. Spot the black & white legs on the roof - one of the few newer additions. Original architect: Clayton & Black.</figcaption>
+                    <button class="accordion">2) Duke of York's Picturehouse</button>
+                    <div class="panel">
+                      <p class="details">Duke of York's is the oldest cinema in continued use in Britain. Built in Edwardian Baroque style in 1910, the building has remained largely unchanged despite passing hands several times. Spot the black & white legs on the roof - one of the few newer additions. Original architect: Clayton & Black.</p>
+                    </div>
                   </figure>
 
 
 
                 <figure class="place">
-                  <h3>3) St Bartholomew's Church</h3>
                   <img src="http://i1213.photobucket.com/albums/cc479/natashahoare/brighton%20buildings/DSC_0277.jpg"/>
-                  <figcaption> Commissioned by Reverend Arthur Wagner in 1872. This neo-gothic church had a controversial welcome - it's an imposing building with a nave 1 metre higher than Westminster Abbey and an unusually geometric shape. Worth viewing from both outside and in. Architect: Edmund Scott, updated by Henry Wilson (1910).</figcaption>
+                  <button class="accordion">3) St Bartholomew's Church</button>
+                  <div class="panel">
+                    <p class="details">Commissioned by Reverend Arthur Wagner in 1872. This neo-gothic church had a controversial welcome - it's an imposing building with a nave 1 metre higher than Westminster Abbey and an unusually geometric shape. Worth viewing from both outside and in. Architect: Edmund Scott, updated by Henry Wilson (1910).</p>
+                  </div>
                 </figure>
 
 
@@ -254,3 +260,24 @@
 
 </style>
 </html>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+        /* Toggle between adding and removing the "active" class,
+        to highlight the button that controls the panel */
+        this.classList.toggle("active");
+
+        /* Toggle between hiding and showing the active panel */
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+    });
+}
+</script>
