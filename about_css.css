@@ -103,6 +103,10 @@ p2 {
   padding: 0% 4%;
 }
 
+#bibliography {
+  font-size: 0.8em;
+}
+
 .codefirstlogo {
   display: block;
     margin-left: auto;
