@@ -55,6 +55,7 @@ a:hover {
     color: white;
     justify-content: flex-end;
     font-family: raleway;
+    margin-top: 5%;
   }
 
   #about {
@@ -199,7 +200,10 @@ input[type=submit]:hover {
       margin: 4% 5%;
     }
     .accordion, #navbar{
-      font-size: 1.4em;
+      font-size: 3.3em;
+    }
+    footer {
+      font-size: 2.5em;
     }
 
   }
