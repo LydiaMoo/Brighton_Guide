@@ -174,14 +174,18 @@ p2 {
     #about {
       margin: 4% 5%;
     }
+
+    .codefirstlogo {
+      width: 100%;
+    }
+
     .accordion, #navbar{
       font-size: 3.3em;
     }
-    .flex-container {
-      height: 20%;
-    }
+  
+
     footer {
-      font-size: 2.5em;
+      font-size: 2em;
     }
 
   }
