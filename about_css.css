@@ -128,6 +128,11 @@ p2 {
   padding: 0% 4%;
 }
 
+#bibliography {
+  font-size: 0.8em;
+  font-style:italic;;
+}
+
 .codefirstlogo {
   display: block;
     margin-left: auto;
@@ -139,6 +144,7 @@ p2 {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  margin-bottom: 5%;
 }
 
 
