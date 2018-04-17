@@ -114,6 +114,7 @@ a:hover {
     padding: 2.5%;
     display: flex;
     color: white;
+    position: fixed;
     justify-content: flex-end;
   }
 
